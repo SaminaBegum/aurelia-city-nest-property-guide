@@ -1,0 +1,83 @@
+{
+  "source": "code-archive",
+  "archive": "pixel-perfect-replay-97608-main_2.zip",
+  "capabilities": [
+    {
+      "capability": "application code and page",
+      "source": "TanStack Start Aurelia Real Estate site",
+      "outcome": "Migrate the homepage, shared components, styles, and bundled assets; add the requested city dropdown.",
+      "status": "in_progress",
+      "next_action": "Complete migration and verify desktop and mobile city selection."
+    },
+    {
+      "capability": "schema and database",
+      "source": "None detected",
+      "outcome": "Not applicable; no database schema or database integration is present in the archive.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "records",
+      "source": "40 generated demonstration property listings in source code",
+      "outcome": "Preserve the bundled Dubai and Pune demonstration listings.",
+      "status": "pending",
+      "next_action": "Verify city-specific listing counts and displayed content."
+    },
+    {
+      "capability": "authentication and user identities",
+      "source": "None detected",
+      "outcome": "Not applicable; the site has no sign-in or user records.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "authorization and roles",
+      "source": "None detected",
+      "outcome": "Not applicable; no role or permission logic is present.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "uploaded and bundled file bytes",
+      "source": "Archive assets",
+      "outcome": "Migrate included property and city images. The brand-mark asset is only a source-project pointer; its image bytes are not in the archive.",
+      "status": "pending",
+      "next_action": "Verify the brand mark renders; otherwise request its original image file."
+    },
+    {
+      "capability": "external providers and integrations",
+      "source": "None detected",
+      "outcome": "Not applicable; no external provider integration is present.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "public endpoints and callbacks",
+      "source": "None detected",
+      "outcome": "Not applicable; no API routes, webhooks, or OAuth callbacks are present.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "schedules and secrets",
+      "source": "None detected",
+      "outcome": "Not applicable; no schedules or required environment variables are present.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "cutover",
+      "source": "Not requested",
+      "outcome": "No external service or production endpoint cutover is needed for this static site.",
+      "status": "not_applicable",
+      "next_action": "None."
+    },
+    {
+      "capability": "verification",
+      "source": "Application preview",
+      "outcome": "Verify the copied experience and both city-selection flows.",
+      "status": "pending",
+      "next_action": "Run the app tests and browser checks at desktop and mobile sizes."
+    }
+  ]
+}
